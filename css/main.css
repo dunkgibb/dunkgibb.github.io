@@ -65,6 +65,48 @@ padding-top: 50px;
   align-items: center;
 }
 
+/* Selection2 Cards */
+
+#gutter {
+
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+.card:hover  {
+  background-color: silver;
+}
+
+.card-img-top  {
+  padding: 10px;
+}
+
+.card-body {
+
+  padding: 10px;
+}
+
+.card-text {
+
+
+  font-size: 16pt;
+  line-height: 1.5em;
+  font-weight: bold;
+
+}
+
+.card-title{
+
+  font-size: 12pt;
+}
+
+#button{
+font-weight: bold;
+font-size: 10pt;
+}
+
+
 
 
 html,h1,h2,h3,h4,h5,h6,a{
