@@ -27,6 +27,22 @@ padding-top: 50px;
   letter-spacing: -.05rem;
 }
 
+#bluelab  {
+  background-image: url("../img/bluelab/water.jpg");
+  background-size: cover;
+  height: 100%;
+  box-shadow: 0 3000px rgba(10, 0, 255, 0.4) inset;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+}
+
+
+.img-fluid {
+
+  max-width: 100%;
+  height: auto;
+}
 
 .jumbotron-billboard .img {
     margin-bottom: 0px;
@@ -45,6 +61,7 @@ padding-top: 50px;
     background-position: center;
 
 }
+
 .jumbotron h2 {margin-top:0;}
 .jumbotron {
   position:relative;
@@ -75,11 +92,14 @@ padding-top: 50px;
 }
 
 .card:hover  {
-  background-color: silver;
+
 }
 
 .card-img-top  {
   padding: 10px;
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
 }
 
 .card-body {
