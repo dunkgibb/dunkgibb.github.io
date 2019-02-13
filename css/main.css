@@ -32,10 +32,10 @@ padding-top: 50px;
   background-size: cover;
   height: 100%;
   box-shadow: 0 3000px rgba(10, 0, 255, 0.4) inset;
-  padding-bottom: 100px;
-  padding-top: 100px;
-
 }
+
+
+
 
 
 .img-fluid {
@@ -98,7 +98,7 @@ padding-top: 50px;
 .card-img-top  {
   padding: 10px;
   width: 100%;
-  height: 15vw;
+
   object-fit: cover;
 }
 
@@ -127,6 +127,14 @@ font-size: 10pt;
 }
 
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
 
 
 html,h1,h2,h3,h4,h5,h6,a{
@@ -157,7 +165,7 @@ color:pink;
 
 .content {
 background-color: #343a40;
-padding-top: 80px;
+
 }
 
 .contentcase {
@@ -211,6 +219,19 @@ background-color: white;
 	#frontpage h1{
 	font-size: 5.5rem;
 	}
+
+  #bannertext{
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .content {
+
+  padding-top: 80px;
+  }
+
+
 
 }
 
