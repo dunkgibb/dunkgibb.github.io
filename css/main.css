@@ -34,6 +34,17 @@ padding-top: 50px;
   box-shadow: 0 3000px rgba(10, 0, 255, 0.4) inset;
 }
 
+#AboutMe {
+
+  padding-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#cardAbout {
+margin-top: 30px;
+
+}
 
 
 
@@ -107,7 +118,7 @@ padding-top: 50px;
   padding: 10px;
 }
 
-.card-text {
+#ProjectCard {
 
 
   font-size: 16pt;
