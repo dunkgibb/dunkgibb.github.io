@@ -332,14 +332,7 @@ margin-bottom: 50px;
 
 
 
-@media (pointer: coarse) and (hover: none) {
-  .videoheader {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-  }
-  .videoheader video {
-    display: none;
-  }
-}
+
 
 
 
@@ -362,7 +355,24 @@ div#intro.col{
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 576px) { ... }
+@media (max-width: 576px) {
+
+h1.bigtext {
+
+  font-size: 70px;
+}
+
+.chinese {
+
+  font-size: 70px;
+}
+
+#mainbutton {
+
+      margin: 10px;
+}
+
+ }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { ... }
