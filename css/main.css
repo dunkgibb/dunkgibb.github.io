@@ -260,6 +260,8 @@ font-weight: bold;
 font-size: 10pt;
 }
 
+  /* Impact section mainpage */
+
 .col.impact{
 margin-left: 60px;
 margin-right: 60px;
@@ -277,6 +279,67 @@ margin-left: 60px;
 margin-right: 60px;
 margin-top: 50px;
 margin-bottom: 50px;
+}
+
+  /* video on main page */
+
+
+  .videoheader {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.videoheader video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.videoheader .container {
+  position: relative;
+  z-index: 2;
+}
+
+.videoheader .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+#bannervideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@media (pointer: coarse) and (hover: none) {
+  .videoheader {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  .videoheader video {
+    display: none;
+  }
+}
 
 
 
