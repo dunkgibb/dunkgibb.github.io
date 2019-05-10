@@ -383,6 +383,17 @@ p.subheading {
       margin: 10px;
 }
 
+#intro{
+
+padding-top: 10px;
+
+}
+
+#DuncanIntro {
+
+      height: auto;
+}
+
  }
 
 /* Medium devices (tablets, 768px and up) */
