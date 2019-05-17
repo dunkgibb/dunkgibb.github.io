@@ -43,25 +43,24 @@
 
 <main class="content">
 
-<div class="content fill">
+<div class="project fill">
 
 
+  <div class="container project-image">
 
-  <div class="jumbotron jumbotron-billboard jumbotron-fluid vertical-center" id="bannerwiki">
-      <div class="img"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                  <h2 class="text-center text-white">Mobile first online product documentation</h2>
-                    <p class="text-center">
+  <img src="img\Wiki\mobile and lappy-01.png" class="img-fluid case-study" alt="Responsive image">
 
-                    </p>
+  </div>
 
-                </div>
-            </div>
-        </div>
-    </div>
+  <div class="container text-center px-5 pb-5">
 
+    <h3>XYZprinting</h3>
+    <h4>Mobile first online product documentation</h4>
+    <br>
+  <p>XYZprinting, a world-leading 3D printing company was releasing an entry-level 3D printer designed for families and home hobbyists called the da Vinci Mini. Together with a product marketer and GUI designer we created an online documentation website and quick setup process to support da Vinci Mini users during product installation and use. </p>
+<p>The website has been in use for use for 3 years with the number of new users to the site regularly doubling the amount of newly activated 3D printers, showing that website is useful not only as documentation for new and existing users but also for people interested in buying the product.  </p>
+
+  </div>
 
 
 
@@ -71,11 +70,6 @@
     <div class="container">
         <div class= "row">
            <div class = "col-sm-12 col-md-8">
-
-             <h4> Overview </h4>
-             <p>XYZprinting, a world-leading 3D printing company was releasing an entry-level 3D printer designed for families and home hobbyists called the da Vinci Mini. Together with a product marketer and GUI designer we created an online documentation website and quick setup process to support da Vinci Mini users during product installation and use. The website has been in use for use for 3 years with the number of new users to the site regularly doubling the amount of newly activated 3D printers, showing that website is useful not only as documentation for new and existing users but also for people interested in buying the product.   </p>
-
-            <br>
 
             <h4>Problem </h4>
             <p>The da Vinci mini had been marketed and designed to look like a consumer electronic product, the problem was that setup was slightly more complicated than users expected. During user testing, we saw some people would opt out of reading the manual that came with it and instead do a quick search on their mobile device for a setup video or try and set the product up without the manual and Google search for any issues as they arose. The only online documentation available was a PDF version of the manual. This made reading hard on mobile devices and searching for information slow.   </p>
@@ -144,37 +138,73 @@
 </div>
 
 
-<div class="container">
+<div class="container py-5">
 
-  <h5>User walkthrough and User Journey</h5>
-  <p> I conducted a user walkthrough unboxing the product, downloading the software and conducting a first print. This allowed me to highlight any major issues and document the steps involved in the user journey. Based off previous user interviews by other team members and my findings, I then created a chart mapping the user journey. </p>
+<div class="row">
+
+  <div class="col-lg">
+    <h5>User walkthrough and User Journey</h5>
+    <p> I conducted a user walkthrough unboxing the product, downloading the software and conducting a first print. This allowed me to highlight any major issues and document the steps involved in the user journey. Based off previous user interviews by other team members and my findings, I then created a chart mapping the user journey. </p>
+    <p> I then broke the journey down into three common setup tasks to see where improvements could be made using an online documentation website. These tasks were: download the printing software, reading an FAQ and watching an install video.  </p>
+
+  </div>
+
+  <div class="col-lg text-center">
+
+    <img src="img/Wiki/image5.png" class="img-fluid case-study" alt="Responsive image">
+  </div>
+
+
+</div>
+
 <img src="img/Wiki/Customer-journey-map_3.png" class="img-fluid case-study" alt="Responsive image">
 
+<div class="row mt-5">
 
-<p> I then broke the journey down into three common setup tasks to see where improvements could be made using an online documentation website. These tasks were: download the printing software, reading an FAQ and watching an install video.  </p>
-<img src="img/Wiki/image5.png" class="img-fluid case-study" alt="Responsive image">
+  <div class="col">
+    <h5>Prototyping and Testing</h5>
+    <p>Based off the three common setup tasks, I created a prototype website in Axure with video links and basic content and a one page quick guide that would be included in the product packaging inplace of the existing manual.
 
-<h5>Prototyping and Testing</h5>
-<p>Based off the three common setup tasks, I created a prototype website in Axure with video links and basic content and a one page quick guide that would be included in the product packaging inplace of the existing manual.
+    To test this new design, we asked four users who had never used a 3D printer before to unbox the da Vinci Mini and print something. Two users would be given the existing design and two would be given the proposed design.
 
-To test this new design, we asked four users who had never used a 3D printer before to unbox the da Vinci Mini and print something. Two users would be given the existing design and two would be given the proposed design.
+    During setup two users used Google to search for troubleshooting information but no one accessed the prototype website. During testing we observed and confirmed with users afterwards that no one read the link in the quick guide because they were overwhelmed with information further down on the page.
 
-During setup two users used Google to search for troubleshooting information but no one accessed the prototype website. During testing we observed and confirmed with users afterwards that no one read the link in the quick guide because they were overwhelmed with information further down on the page.
+    We categorized all the issues users encountered during testing using the NNG’s usability heuristics and found 38.9% related to help & documentation. This highlighted a lack of relevant information available during product setup.</p>
 
-We categorized all the issues users encountered during testing using the NNG’s usability heuristics and found 38.9% related to help & documentation. This highlighted a lack of relevant information available during product setup.</p>
-<img src="img/Wiki/image1.jpg" class="img-fluid case-study" alt="Responsive image">
+
+  </div>
+
+<div class="col text-center">
+  <img src="img/Wiki/image1.jpg" class="img-fluid case-study " alt="Responsive image">
+</div>
+
+</div>
 
 <h5>Redesign</h5>
 <p>Based off what we observed during testing we shortened the quickguide to just one link. This would be the first thing users saw when opening the product, the manual would also be included to give users the option of using both digital and physical documentation. </p>
 <img src="img/Wiki/image3.png" class="img-fluid case-study" alt="Responsive image">
 
+
 <h5>Website Testing</h5>
 <p>By showing the lack of documentation during product setup we were able to get management’s support to create an minimum viable solution by designing a Wordpress site.  After we had created a website, I tested the tasks I had defined earlier with four users on Usertesting.com. All users were able to download the printing software, find the FAQ and install video in under 2 minutes. </p>
 <img src="img/Wiki/image4.png" class="img-fluid case-study" alt="Responsive image">
 
-
-
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div class="row">
 
