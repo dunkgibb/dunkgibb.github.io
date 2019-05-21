@@ -319,12 +319,26 @@ background-color: #F5F5F5;
 
 }
 
+  /* Impact title section project */
+
+.impact-title{
+
+
+  box-shadow: 0 1px 0 #000 inset,
+              0 -1px 0 #000 inset;
+}
+
+
+
+
 .col.process{
 margin-left: 60px;
 margin-right: 60px;
 margin-top: 50px;
 margin-bottom: 50px;
 }
+
+
 
   /* video on main page */
 
