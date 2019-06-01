@@ -45,7 +45,9 @@ font-size: 100px;
 p {
   /* body 2 */
 font-family: 'Lora', serif;
-font-size: 14px;
+font-size: 18px;
+letter-spacing: -.003em;
+line-height: 1.58;
 }
 
 p.subheading {
@@ -87,7 +89,12 @@ div.container.main-divide {
   padding-bottom: 30px;
 
 
+
 }
+
+
+
+
 
   /* BANNER ID */
 
@@ -258,6 +265,12 @@ padding-top: 25px !important;
   font-size: 12pt;
   font-weight:lighter;
 }
+
+.card{
+
+  border-radius: 0rem;
+}
+
 
 
 img.case-study{
