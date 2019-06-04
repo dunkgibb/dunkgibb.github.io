@@ -368,6 +368,12 @@ margin-bottom: 50px;
 }
 
 
+  /* Impact title section project */
+
+.Contact-link{
+
+  word-break: break-all;
+}
 
   /* video on main page */
 
@@ -444,6 +450,11 @@ div#intro.col{
 
 }
 
+p.introtext {
+
+  font-size: 16px;
+}
+
 }
 
 
@@ -455,7 +466,7 @@ div#intro.col{
 
 h1.bigtext {
 
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .chinese {
