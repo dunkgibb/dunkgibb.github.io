@@ -348,6 +348,14 @@ background-color: #F5F5F5;
 
 }
 
+.quote {
+
+  color: #007bff;
+  
+  font-style: italic;
+}
+
+
   /* Impact title section project */
 
 .impact-title{
