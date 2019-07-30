@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+    <title>Duncan Gibb Portfolio</title>
+  </head>
+  <body>
+
+<header>
+
+  <nav class="navbar navbar-expand-sm navbar-light px-5 fixed-top ">
+    <a class="navbar-brand" href="index.html">Duncan Gibb</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto pb-3">
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="Projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">Contact</a>
+        </li>
+
+
+
+      </ul>
+
+    </div>
+  </nav>
+
+</header>
+
+<main class="content">
+
+<div class="project fill">
+
+
+  <div class="container project-image width-control">
+<h1>3D printing file preparation workflow</h1>
+<p>Redesigning the 3D printing file preparation workflow to minimize print failures</p>
+
+  <img src="img\nobel\Software layout-2.png" class="img-fluid case-study mt-5" alt="Responsive image">
+
+  </div>
+
+
+
+  <div class="container width-control  py-5 mb-5 impact-title">
+
+
+    <h4 class="mt-4 mb-2">Overview</h4>
+
+<p>XYZware Nobel is a file preparation software for resin-based industrial-grade 3D printers. Resin-based 3D printing, also known as stereoliphography (STL) and digital light processing (DLP), uses light to harden resin one layer at a time to form a physical model. </p>
+<p>In response to the growth of the industrial 3D printing market,  XYZprinting realigned its business direction to develop printers for a range of industrial 3D printer applications. Designers, dentists, jewelers, plastic surgeons, and lean product development teams are increasingly using 3D printing in their everyday workflows and existing print preparation software needed to meet their expectations. </p>
+<p>I was responsible for defining the problem, undertaking user research, user testing multiple paper prototype solutions, and producing a detailed UX software specification for the software team to follow. The final UI is slightly different to the images shown here. The images you see here were created by me.</p>
+
+<h4 class="mt-5 mb-2">Problem & Opportunity</h4>
+
+<p>Amazon reviews and feedback from the customer support team highlighted that a lot of print jobs failed after several hours of printing because 3D models weren’t prepared in the software properly. If the part wasn’t rotated in the proper direction and the support material was added in the wrong areas the part would fail during printing. For the businesses who owned the printers this wasted machine time and materials and it was frustrating for users because they would have to redo everything. Interviewing users, we found that a lot of people, new to this method of 3D printing, learnt by trial and error and weren’t aware of the differences between DLP and SLA 3D printing or the best practices for preparing models. This helped explain why in 2018, 22% of product feedback had print failure as a keyword. </p>
+
+
+
+
+
+
+
+
+<h4 class="mt-5 mb-2">Solution</h4>
+
+<p>I created an interaction flow that semi-automated the model preparation process to minimize errors and displayed the material cost per part so users can easily create quotes for their customers. To track the print failure rate we added a print confirmation screen on all printers that allow users to feedback whether the print failed or not. This is not only valuable for us as a key metric but in future can be used by customers to calculate the ROI for their printers. I also collaborated with marketing to link to articles on our website explaining the printing process and commonly encountered issues. </p>
+
+<figure class="figure">
+<div class="embed-responsive embed-responsive-16by9 mt-5">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/90YlUxDzL8Q" allowfullscreen></iframe>
+</div>
+<figcaption class="figure-caption mt-2">Here is a short video of me talking about the interface I designed and the reasons behind the changes. It goes on a little long... don't say I didn't warn you!</figcaption>
+
+</figure>
+
+
+
+
+  </div>
+
+
+<div class="container width-control py-2  ">
+
+
+<h2>DISCOVER PHASE </h2>
+
+
+<h4 class="mt-5 mb-2">Understanding and insight into the problem</h4>
+<p>Based on over 50 Amazon product reviews for the printers that use XYZware Nobel, we found that a majority of the ratings were on opposite ends of the spectrum.
+</p>
+
+<img src="img\nobel\image4.png" class="img-fluid case-study" alt="Responsive image">
+
+<p>After reading through all the negative reviews one common theme was that generating support material was difficult, especially for new users.</p>
+
+<p class="text-center quote pt-4">“Being new to SLA the first few prints were a bit hit and miss. The main issue was the piece lifting off the bed during printing. However, I believe now that has more to do with how I was setting up the print.”   </p>
+
+<h4 class="mt-5 mb-2">Project Kickoff</h4>
+<p>To define our design direction, we kicked off the project by holding an empathy map and user journey brainstorm session to work with all project stakeholders to find out the issues and gain an understanding of what the software had to do. </p>
+<p>A key takeaway from the workshop was that the software needed to support a range of new business-grade 3D printers as well as the consumer-grade printers.  This meant we had a wide range of different user personas who used the software for different reasons.</p>
+<img src="img\nobel\image3.jpg" class="img-fluid case-study" alt="Responsive image">
+
+<h4 class="mt-5 mb-2">Further Research</h4>
+<p>I interviewed two users remotely and one in person. Two 3D printed models professionally for customers, and the other who had purchased a resin printer to learn about the technology and print board game figurines.  I wanted to double check our assumptions from the workshop, learn more about their work environment and see what issues they were experiencing with the software. </p>
+<p>I also interviewed customer service representatives from different service centers to find out what issues users commonly encounter when printing and what they do to address those. I found out that a majority of support tickets were created because users didn’t know how to get complicated models to stick to the print bed using support structures in the software. </p>
+<p>The insights highlighted were:</p>
+<ul>
+<li>Users didn’t know the difference between DLP and SLA printing and print preparation best-practices.</li>
+<li>Generating support material in the software was overly complicated</li>
+<li>It was hard to arrange multiple models in the same print</li>
+<li>No easy way to calculate the cost of the part for quoting customers</li>
+<li>DLP and SLA printing is messy, so printers are often stored in workshops and files sent via Wi-Fi</li>
+</ul>
+
+<h2 class="mt-5 mb-2">DEFINE PHASE </h2>
+
+
+<h4 class="mt-5 mb-2">Design Planning </h4>
+<p>We presented our research findings to the stakeholders, and decided to prioritize the following design objectives: </p>
+<ul>
+<li>Simplify file preparation</li>
+<li>Create a way for print failures to be counted</li>
+<li>Streamline preparation process</li>
+<li>Provide a way for customers to calculate the part cost</li>
+<li>Allow users to select and scale multiple models easily</li>
+<li>Enable remote printing to multiple printers</li>
+</ul>
+
+<img src="img\nobel\CardCover.jpg" class="img-fluid case-study mt-4" alt="Responsive image">
+
+<h2 class="mt-5 mb-2">DEVELOP PHASE </h2>
+<h4 class="mt-5 mb-2">Design </h4>
+<p>I would focus on the design on XYZware Nobel while my colleague would work on the design of the printers touch panel. </p>
+<p>To address these objectives, I sketched a rough flow on paper and began generating a series of paper prototypes that tried to simplify the process in 5 easy steps.  Automating the process where possible but at each stage giving advanced users the option manually adjust settings.  I asked colleagues to act out tasks such as prepare a file for printing and change printers. </p>
+<p>Initially, people unfamiliar with the printing technology mistook it for Fused Deposition Model printing software and couldn’t locate important settings in the process. Advanced users were more concerned about setting up multiple printers and how to manage them from one computer. </p>
+<p>I wanted to add a print rating section in the software for users but we decided it would be best to add it to the touch-screen interface on the printers because users interact with the printer itself when removing models after printing not the software.</p>
+
+<img src="img\nobel\image5.jpg" class="img-fluid case-study mt-4" alt="Responsive image">
+
+
+<h2 class="mt-5 mb-2">DELIVERY PHASE </h2>
+
+<h4 class="mt-5 mb-2">Prototypes</h4>
+<p>I took this feedback and prepared several prototypes in Axure. I asked the users I interviewed earlier to run through more scenarios and comment on the design each time.  The feedback helped me resolve a lot of usability issues such as first-time setup this saved time for the software team downstream in the process. </p>
+<img src="img\nobel\image2.gif" class="img-fluid case-study " alt="Responsive image">
+
+
+
+<div class="highlight px-2 py-1">
+<h4 class="mt-3 mb-2">Things I Learnt</h4>
+<p>Before starting projects it is really important to understand the scope and feasibility. During the research phase I should have engaged with the development team to better understand their workload and what was doable in the timeframe. I got too excited by the possibility to improve this software and didn’t properly address the business concerns. As a result the software release was delayed. Since working on this project, I have addressed this issue by hosting co-design workshops with engineers to make sure we are all on the same page.</p>
+</div>
+
+<h4 class="mt-5 mb-2">My Role</h4>
+<p>UX Designer
+    <br>Tools: Axure, Figma, pen and paper
+    <br>Date: June 2018 - January 2019 (6 months)
+    <br>Team: Jessica Peng, Ring Yan
+    <br>Deliverables: Axure design specification document,  Axure interactive prototype, research findings presentation, XD interactive prototype.
+</p>
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+</main>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+
+  </body>
+</html>
