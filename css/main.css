@@ -46,6 +46,11 @@ color: #2C64B9;
 
 }
 
+h5.miniheading {
+color: #343a40;
+font-size: 18px;
+}
+
 h6  { /* caption */
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
