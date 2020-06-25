@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'lemonTuesday';
-  src: url(fonts/LemonTuesday.otf);
+  src: url("../fonts/LemonTuesday.otf");
   font-weight: normal;
   font-style: 100;
 
