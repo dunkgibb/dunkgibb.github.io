@@ -17,7 +17,7 @@ font-family: 'Raleway', sans-serif;
 
 h1{
 /* heading */
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'lemonTuesday', sans-serif;
   font-weight: bolder;
 }
 
@@ -36,7 +36,7 @@ h3{
 }
 
 h4{
-font-family: 'lemonTuesday', sans-serif;
+font-family: 'Montserrat', sans-serif;
 font-weight: bolder;
 font-size: 29px;
 color: #2B5ADB;
@@ -322,6 +322,7 @@ padding-top: 25px !important;
 
   font-size: 12pt;
   font-weight:lighter;
+
 }
 
 .card{
@@ -524,6 +525,7 @@ p.introtext {
 
 h4.card-text.mt-4{
   color: black;
+
 }
 
 
