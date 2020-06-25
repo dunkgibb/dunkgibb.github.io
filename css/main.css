@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Montserrat|Noto+Sans+SC|Open+Sans|Raleway');
 
+@font-face {
+  font-family: 'lemonTuesday';
+  src: url(fonts/LemonTuesday.otf);
+  font-weight: normal;
+  font-style: 100;
 
+}
 
 html,h1,h2,h3,h4,h5,h6,a{
 font-family: 'Raleway', sans-serif;
@@ -33,7 +39,7 @@ h4{
 font-family: 'Montserrat', sans-serif;
 font-weight: bolder;
 font-size: 29px;
-color: #2C64B9;
+color: ##4161C0;
 
 }
 
@@ -41,7 +47,7 @@ h5 {
   /* body 2 & menu */
 font-family: 'Raleway', sans-serif;
 font-weight: bold;
-color: #2C64B9;
+color: #4161C0;
 
 
 }
@@ -60,6 +66,7 @@ h6  { /* caption */
 
 font-family: 'Noto Sans SC', sans-serif;
 font-size: 100px;
+color: #2B5ADB;
 
 }
 
@@ -84,7 +91,9 @@ p.subheading {
 
 h1.bigtext {
   font-size: 100px;
-font-family: 'Montserrat', sans-serif; }
+font-family: 'lemonTuesday';
+color: #2B5ADB;
+}
 
 div.content {
     border: 1px solid grey;
@@ -122,7 +131,7 @@ div.container.main-divide {
 }
 
 a#highlight{
-color: #2C64B9!important;
+color: #212529!important;
 
 }
 
@@ -227,7 +236,7 @@ div.highlight {
 #mainbutton {
         border-radius: 0 !important;
         color: white;
-        background-color: #2C64B9;
+        background-color: #212529;
 
 }
 
@@ -237,7 +246,7 @@ div.highlight {
         margin: 30px;
         font-size: 40px;
         opacity: 0.7;
-        color: #2C64B9;
+        color: #212529;
 
 
 }
@@ -482,7 +491,7 @@ margin-bottom: 50px;
   background-color: white;
   opacity: 0.5;
   border-radius: 50%;
-  color: #2C64B9;
+  color: ##4161C0;
 }
 
 
@@ -523,6 +532,7 @@ h1.bigtext {
 .chinese {
 
   font-size: 48px;
+  color: #2B5ADB;
 }
 
 p.subheading {
