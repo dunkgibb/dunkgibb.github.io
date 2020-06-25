@@ -17,7 +17,7 @@ font-family: 'Raleway', sans-serif;
 
 h1{
 /* heading */
-  font-family: 'lemonTuesday', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
 }
 
@@ -91,7 +91,7 @@ p.subheading {
 
 h1.bigtext {
   font-size: 100px;
-font-family: 'lemonTuesday';
+font-family: 'lemonTuesday',sans-serif;
 color: #2B5ADB;
 }
 
@@ -324,6 +324,7 @@ padding-top: 25px !important;
   font-weight:lighter;
 
 }
+
 
 .card{
 
