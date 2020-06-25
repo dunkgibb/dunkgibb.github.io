@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Montserrat|Noto+Sans+SC|Open+Sans|Raleway');
 
 @font-face {
-  font-family: 'lemonTuesday';
-  src: url("../fonts/LemonTuesday.otf");
+  font-family: lemonTuesday;
+  src: url(../fonts/LemonTuesday.otf);
   font-weight: normal;
   font-style: 100;
 
 }
+
+
 
 html,h1,h2,h3,h4,h5,h6,a{
 font-family: 'Raleway', sans-serif;
